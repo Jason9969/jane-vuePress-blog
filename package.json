@@ -2,8 +2,14 @@
   "name": "jane-vuePress-blog",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/Jason9969/jane-vuePress-blog.git",
   "author": "jane",
   "license": "MIT",
-  "private": false
+  "private": true,
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.46"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
 }
