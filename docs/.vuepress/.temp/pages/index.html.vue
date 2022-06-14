@@ -1,3 +1,4 @@
-<template>
-  <div><p>欢迎光临</p></div>
-</template>
+<template><div><p>��#� �J�a�n�e� ��v�N�N���x
+�
+�</p>
+</div></template>

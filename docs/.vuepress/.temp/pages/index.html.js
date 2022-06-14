@@ -1,28 +1,33 @@
 export const data = {
   "key": "v-8daa1a0e",
   "path": "/",
-  "title": "jane的日常零碎",
-  "lang": "en-US",
+  "title": "",
+  "lang": "zh-CN",
   "frontmatter": {},
   "excerpt": "",
   "headers": [],
-  "git": {},
+  "git": {
+    "updatedTime": 1654596849000,
+    "contributors": [
+      {
+        "name": "梁皓明",
+        "email": "93623@runjian.com",
+        "commits": 1
+      }
+    ]
+  },
   "filePathRelative": "README.md"
 }
 
-if (
-  import.meta.webpackHot) {
+if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
   if (__VUE_HMR_RUNTIME__.updatePageData) {
     __VUE_HMR_RUNTIME__.updatePageData(data)
   }
 }
 
-if (
-  import.meta.hot) {
-  import.meta.hot.accept(({
-    data
-  }) => {
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
     __VUE_HMR_RUNTIME__.updatePageData(data)
   })
 }
