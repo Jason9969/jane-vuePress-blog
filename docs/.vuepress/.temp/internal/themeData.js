@@ -1,16 +1,34 @@
 export const themeData = {
+  "navbar": [
+    {
+      "text": "概述",
+      "link": "/pages/"
+    }
+  ],
+  "sidebar": {
+    "/pages/": [
+      {
+        "text": "前端",
+        "collapsible": true,
+        "children": [
+          {
+            "text": "webpack5打包发布ts库",
+            "link": "/pages/front/front.md"
+          }
+        ]
+      }
+    ]
+  },
   "locales": {
     "/": {
       "selectLanguageName": "English"
     }
   },
-  "navbar": [],
   "logo": null,
   "darkMode": true,
   "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
-  "sidebar": "auto",
   "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",

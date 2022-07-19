@@ -1,8 +1,10 @@
 import { Vuepress } from '@vuepress/client'
 
 const routeItems = [
-  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
+  ["v-e379c5b8","/pages/",{"title":""},["/pages/index.html","/pages/README.md"]],
+  ["v-4a0ad91a","/pages/front/front.html",{"title":""},["/pages/front/front","/pages/front/front.md"]],
   ["v-3706649a","/404.html",{"title":""},["/404"]],
+  ["v-8daa1a0e","/",{"title":""},["/index.html","/README.md"]],
 ]
 
 export const pagesRoutes = routeItems.reduce(
